@@ -6,7 +6,7 @@ function Info (catagories) {
 }
 
 Info.prototype.toHtml = function() {
-  var $infoChunk = $('section.blog').clone();
+  var $infoChunk = $('section').clone();
   $infoChunk.find("title").html(this.infoTitle);
 	$infoChunk.find(".blogSummery").html(this.summery);
 	$infoChunk.removeAttr("class");
@@ -18,5 +18,5 @@ soccerBlog.forEach(function(element){
 });
 
 information.forEach(function(soccerPost){ // Get it?   Soccer... Post...
-  $("#blog").append(soccerPost.toHtml());
+  $('section').append(soccerPost.toHtml());
 });
