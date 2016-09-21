@@ -1,0 +1,9 @@
+@media only and (min-width: 640px) {
+	.nav ul {
+		display: block;
+	}
+}
+
+.nav ul {
+	display: inline-block;
+}
