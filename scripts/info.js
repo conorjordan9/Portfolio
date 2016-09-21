@@ -1,15 +1,15 @@
 var information = [];
 
 function Info (catagories) {
-	this.infoTitle = catagories.info; //Title of info
+	this.infoTitle = catagories.title; //Title of info
 	this.summery = catagories.summery; //Summery of info
 }
 
 Info.prototype.toHtml = function() {
-	var $infoChunk = $('section').clone();
+	var $infoChunk = $('section.blog').clone();
 	$infoChunk.find("title").html(this.infoTitle);
 	$infoChunk.find(".blogSummery").html(this.summery);
-	$infoChunk.removeATTR('class');
+	$infoChunk.removeAttr("class");
 	return $infoChunk;
 };
 
