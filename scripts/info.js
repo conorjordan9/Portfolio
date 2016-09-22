@@ -7,11 +7,11 @@ function Info (catagories) {
 
 Info.prototype.toHtml = function() {
   var $infoChunk = $('section').clone();
-  $infoChunk.find("title").html(this.infoTitle);
-	$infoChunk.find(".blogSummery").html(this.summery);
-	$infoChunk.removeAttr("class");
-	console.log("Prototyping: "+this.infoTitle);
-	return $infoChunk;
+  $infoChunk.find('title').html(this.infoTitle);
+  $infoChunk.find('.blogSummery').html(this.summery);
+  $infoChunk.removeAttr('class');
+  console.log('Prototyping: '+this.infoTitle);
+  return $infoChunk;
 };
 
 soccerBlog.forEach(function(element){
@@ -20,5 +20,5 @@ soccerBlog.forEach(function(element){
 
 information.forEach(function(soccerPost){ // Get it?   Soccer... Post...
   $('section').append(soccerPost.toHtml());
-	console.log("appending story: "+this.infoTitle);
+  console.log('appending story: '+soccerPost.this.infoTitle);
 });
