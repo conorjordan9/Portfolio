@@ -3,3 +3,21 @@ body{
   background-color: #282C34;
   color: #E2C08D;
 }
+
+h1 {
+  text-align: center;
+  margin: 0px;
+}
+
+h6 {
+  text-align: center;
+  margin: 0px;
+}
+
+p {
+  padding: 5%;
+}
+a{
+  text-decoration: none;
+  color: #B63838;
+}

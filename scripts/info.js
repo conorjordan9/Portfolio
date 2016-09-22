@@ -18,7 +18,7 @@ soccerBlog.forEach(function(element){
   information.push(new Info(element));
 });
 
-information.forEach(function(soccerPost){ // Get it?   Soccer... Post...
-  $('section').append(soccerPost.toHtml());
-  console.log('appending story: '+soccerPost.this.infoTitle);
+information.forEach(function(bPost){ // Get it?   Soccer... Post...
+  $('section').append(bPost.toHtml());
+  console.log('appending story: '+bPost.this.infoTitle);
 });
