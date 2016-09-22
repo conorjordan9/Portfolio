@@ -7,5 +7,5 @@ TODO find and add color package credit
 
 ### ICONs from Icomoon
 
-### /@media
-The /@media query has been taken from the starter code to track down menu bugs.
+### @media
+The @media query has been taken from the starter code to track down menu bugs.
