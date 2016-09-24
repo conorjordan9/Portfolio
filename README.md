@@ -12,7 +12,6 @@ The @media query has been taken from the starter code to track down menu bugs.
 
 ### Fonts
 
-
 Fonts selected are:
 Several fonts have been selected for test and evaluation. The list will be trimmed before final release. CDN and example link below.
 
@@ -28,4 +27,4 @@ Font Examples
 https://fonts.google.com/selection?selection.family=Architects+Daughter|Courgette|Exo|Hammersmith+One|Sansita+One|Shadows+Into+Light
 
 Font CDN
-<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Courgette|Exo|Hammersmith+One|Shadows+Into+Light" rel="stylesheet">
+/<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Courgette|Exo|Hammersmith+One|Shadows+Into+Light" rel="stylesheet"/>
