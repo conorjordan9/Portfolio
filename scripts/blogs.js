@@ -1,4 +1,4 @@
-var soccerBlog = [
+var developerBlog = [
 	{
 		title: "Womens soccer brings playoffs to Portland",
 		type: "soccer",
