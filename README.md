@@ -28,3 +28,6 @@ https://fonts.google.com/selection?selection.family=Architects+Daughter|Courgett
 
 Font CDN
 /<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Courgette|Exo|Hammersmith+One|Shadows+Into+Light" rel="stylesheet"/>
+
+### Blog and project filters
+These were built off of code done in code fellows classes and partner programming.
