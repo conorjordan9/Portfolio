@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Shadows Into Light', cursive;
   background-color: #282C34;
   color: #E2C08D;
@@ -17,7 +17,11 @@ h6 {
 p {
   padding: 5%;
 }
-a{
+a {
   text-decoration: none;
   color: #B63838;
+}
+
+.main-nav tab {
+  background-color: inherit;
 }
