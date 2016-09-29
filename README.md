@@ -8,4 +8,23 @@ TODO find and add color package credit
 ### ICONs from Icomoon
 
 ### /@media
-The /@media query has been taken from the starter code to track down menu bugs.
+The @media query has been taken from the starter code to track down menu bugs.
+
+### Fonts
+
+Fonts selected are:
+Several fonts have been selected for test and evaluation. The list will be trimmed before final release. CDN and example link below.
+
+Shadows Into Light - Headers
+Exo - technical projects and text
+Architects - Personal blog and hobby related
+
+Hammersmith - As needed
+Sansita One - As needed
+Courgette - As needed
+
+Font Examples
+https://fonts.google.com/selection?selection.family=Architects+Daughter|Courgette|Exo|Hammersmith+One|Sansita+One|Shadows+Into+Light
+
+Font CDN
+/<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Courgette|Exo|Hammersmith+One|Shadows+Into+Light" rel="stylesheet"/>
