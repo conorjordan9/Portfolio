@@ -20,7 +20,7 @@ developerBlog.forEach(function(element){
 });
 
 information.forEach(function(bPost){
-  $('#main').append(bPost.toHtml());
+  $('#blog').append(bPost.toHtml());
   console.log('appending story: '+bPost.infoTitle);
   console.log(bPost.category);
   $('#author-filter').append('<option value ="' + bPost.author+ '">' +bPost.author+ '</option>');
