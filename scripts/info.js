@@ -1,10 +1,10 @@
 var information = [];
 
-function BlogPost (catagories) {
-  this.infoTitle = catagories.title; //Title of info
+function BlogPost(catagories) {
+  this.title = catagories.title; //Title of info
   this.author = catagories.author;
   this.type = catagories.category;
-  this.summery = catagories.body; //Summery of info
+  this.body = catagories.body; //Summery of info
   this.publishedOn = '';
 }
 
