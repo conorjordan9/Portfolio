@@ -17,8 +17,16 @@
       <nav class="main-nav">
         <div class="icon-menu"></div>
         <ul>
-          <li><a href="#" class="icon-git">Projects</a></li>
-          <li><a href="#" class="icon-git">Soccer Blog</a></li>
+          <li>
+            <select id="category-filter" class="tab">
+              <option value=""> Project Subject </option>
+            </select>
+          </li>
+          <li>
+            <select id="author-filter" class="tab">
+              <option value=""> Blog Author</option>
+            </select>
+          </li>
           <li><a href="http://www.github.com/waxhoya" class="icon-git">GitHub</a></li>
           <li><a href="http://www.reddit.com/u/root_hat" class="icon-reddit">Reddit!</a></li>
           <li><a href="http://stackoverflow.com/users/5987703/aj-pdx" class="icon-stackoverflow">StackOverflow</a></li>
@@ -28,15 +36,24 @@
     </header>
 
     <main>
+
       <section id="blog">
-        <article class="soccerBlog">
-          <title></title>
-          <div class="blogSummery"></section>
-        </article>
+        <script id="blog-template" type="text/x-handle-template">
+          <div class="entry" data-category="{{category}}" data-author="{{author}}">
+            <h3>{{title}}</h3>
+            By: {{author}}
+            On: {{category}}
+            <br>
+            {{{body}}}
+            <br>
+          </div>
+        </script>
       </section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="scripts/blogs.js"></script>
     <script src="scripts/info.js"></script>
+    <script src="scripts/filter.js"></script>
     </body>
 </html>
