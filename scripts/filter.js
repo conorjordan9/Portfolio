@@ -7,7 +7,7 @@ blogFilter.filterByAuthor = function() {
 			$('.entry[data-author="' + $(this).val() = '"]').fadeIn();
 		} else {
       $('.entry').fadeIn();
-      $('article.template').hide();
+      $('blog-template').hide();
     }
     $('#author-filter').val('');
   });
@@ -20,7 +20,7 @@ blogFilter.filterBySubject = function() {
 			$('.entry[data-author="' + $(this).val() = '"]').fadeIn();
 		} else {
       $('.entry').fadeIn();
-      $('article.template').hide();
+      $('blog-template').hide();
     }
     $('#category-filter').val('');
   });

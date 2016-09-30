@@ -2,10 +2,10 @@ var information = [];
 
 function BlogPost(catagories) {
   this.title = catagories.title; //Title of info
+  this.catagories = catagories.type;
   this.author = catagories.author;
-  this.type = catagories.category;
   this.body = catagories.body; //Summery of info
-  this.publishedOn = '';
+  this.publishedOn = catagories.publishedOn;
 }
 
 BlogPost.prototype.toHtml = function() {
