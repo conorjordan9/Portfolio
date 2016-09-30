@@ -24,6 +24,7 @@
 
   .main-nav {
     padding: .2em .2em .2em 2em;
+		font-size: 1.5em;
   }
 
   .main-nav ul {
@@ -41,6 +42,10 @@
 
 	h1 {
 		font-size: 3em;
+	}
+
+	h3 {
+		font-size: 1.5em;
 	}
 }
 
