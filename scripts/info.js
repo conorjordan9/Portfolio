@@ -2,9 +2,10 @@ var information = [];
 
 function BlogPost (catagories) {
   this.infoTitle = catagories.title; //Title of info
-  this.summery = catagories.summery; //Summery of info
   this.author = catagories.author;
-  this.category = catagories.category;
+  this.type = catagories.category;
+  this.summery = catagories.body; //Summery of info
+  this.publishedOn = '';
 }
 
 BlogPost.prototype.toHtml = function() {
@@ -21,6 +22,7 @@ developerBlog.forEach(function(element){
 information.forEach(function(bPost){
   $('#main').append(bPost.toHtml());
   console.log('appending story: '+bPost.infoTitle);
+  console.log(bPost.category);
   $('#author-filter').append('<option value ="' + bPost.author+ '">' +bPost.author+ '</option>');
   if ($('#category-filter option[value="' + bPost.category + '"]').length === 0) {
     $('#category-filter').append('<option value ="' + bPost.category+ '">' +bPost.category+ '</option>');
