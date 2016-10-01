@@ -1,10 +1,10 @@
-icon@font-face {
+@font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?e17ot1');
-  src:  url('fonts/icomoon.eot?e17ot1#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?e17ot1') format('truetype'),
-    url('fonts/icomoon.woff?e17ot1') format('woff'),
-    url('fonts/icomoon.svg?e17ot1#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1098yf');
+  src:  url('fonts/icomoon.eot?1098yf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1098yf') format('truetype'),
+    url('fonts/icomoon.woff?1098yf') format('woff'),
+    url('fonts/icomoon.svg?1098yf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,6 +27,9 @@ icon@font-face {
 .icon-stats-bars:before {
   content: "\e99c";
 }
+.icon-menu:before {
+  content: "\e9bd";
+}
 .icon-github:before {
   content: "\eab0";
 }
@@ -36,6 +39,4 @@ icon@font-face {
 .icon-stackoverflow:before {
   content: "\ead0";
 }
-.icon-menu:before {
-  content: "\eac6";
-}
+

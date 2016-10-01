@@ -10,6 +10,9 @@ h1 {
   font-size: 4em
   padding: 1.5em;
 }
+h5 {
+  padding: .2em .2em .2em .2em;
+}
 
 h6 {
   text-align: center;
