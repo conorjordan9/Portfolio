@@ -3,7 +3,7 @@ var developerBlog = [
 		title: "Womens soccer brings playoffs to Portland",
 		type: "soccer",
 		author: "AJ Reel",
-		body: "<p>Portland Thorns FC based in Portland Oregon has led the US national women's soccer league in 2016. Because of this the championship game is to be played in Providence park. Providence park was recently in the news for hosting its 100th sellout Timbers game, A stat many fan clubs in the US would love to have.</p>",
+		body: "<p>Portland Thorns FC based in Portland Oregon has led the US national women's soccer league in 2016. Because of this the championship game is to be played in Providence park. Providence park was recently in the news for hosting its 100th sellout Timbers game, A stat many fan clubs in the US would love to have. (Maybe include the NSWL Championship in 2013)</p>",
 		publishedOn: ''
 	},
 	{
